@@ -33,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11222" />
+          <entry key="java" value="11223" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11222" />
+          <entry key="JAVA" value="11223" />
         </counts>
       </usages-collector>
     </session>
@@ -102,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tablice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="127">
               <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FivenumbersFour.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
@@ -178,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/com/company/Potega.java" />
         <option value="$PROJECT_DIR$/src/Silnia.java" />
         <option value="$PROJECT_DIR$/src/fivenumbersOne.java" />
-        <option value="$PROJECT_DIR$/src/Tablice.java" />
         <option value="$PROJECT_DIR$/src/Suma.java" />
         <option value="$PROJECT_DIR$/src/fivenumbersTwo.java" />
         <option value="$PROJECT_DIR$/src/FivenumbersThree.java" />
@@ -186,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/Choinki4.java" />
         <option value="$PROJECT_DIR$/src/ChoinkiPattern.java" />
         <option value="$PROJECT_DIR$/src/FivenumbersFour.java" />
+        <option value="$PROJECT_DIR$/src/Tablice.java" />
       </list>
     </option>
   </component>
@@ -208,7 +208,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543696181263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543696326200" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -418,16 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tablice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Choinki4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
@@ -453,6 +443,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tablice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
