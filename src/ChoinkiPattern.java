@@ -1,7 +1,13 @@
 public class ChoinkiPattern {
-
+/*
+1 1 1 1 1
+1 0 0 0 1
+1 0 0 0 1
+1 0 0 0 1
+1 1 1 1 1
+ */
     public static class Main {
-        private static final int DIMENSION = 10;
+        private static final int DIMENSION = 5;
 
         public static void main(String[] args) {
             for(int i = 0; i < DIMENSION; i++) {
