@@ -2,6 +2,8 @@ package com.company;
 
 import java.util.Scanner;
 
+// Wczytaj dwie liczby (`a` i `b`) i wypisz wynik działania `a` do potęgi `b` - używaj tylko mnożenia
+
 public class Potega {
     public static void main(String[] args) {
 

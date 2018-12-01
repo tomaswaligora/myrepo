@@ -1,13 +1,14 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+// wpisuj liczby tak długo aż będzie 5 dodatnich i 5 ujemnych
+
 public class FivenumbersThree {
     public static void main(String[] args) {
-        int[] positiveNums = new int[5]; // [0, 0, 0, 0, 0]
+        int[] positiveNums = new int[5];
         int[] negativeNums = new int[5];
         Scanner scan = new Scanner(System.in);
-        System.out.println("podaj 5 liczb dodatnich i pięć ujemnych: ");
-
+        System.out.println("podaj " + positiveNums.length + " liczb dodatnich i " + negativeNums.length + " liczb ujemnych");
 
         int counterPostive = 0;
         int counterNegative = 0;
@@ -19,7 +20,7 @@ public class FivenumbersThree {
 
             if (input > 0) {
                 if (isArrayComplete(positiveNums)) {
-                    System.out.println("mamy już 5 licz dodatnich, ta liczba bedzie zignorowana");
+                    System.out.println("mamy już 5 liczb dodatnich, ta liczba bedzie zignorowana");
                 } else {
                     positiveNums[counterPostive] = input;
                     counterPostive++;
@@ -33,7 +34,7 @@ public class FivenumbersThree {
                     counterNegative++;
                 }
             } else {
-                System.out.println("wpisaleś 0 i nic nie robie, wpisuj dalej");
+                System.out.println("wpisaleś 0 i je pomijam, wpisuj dalej");
             }
 
         }
@@ -49,7 +50,7 @@ public class FivenumbersThree {
      */
     public static boolean isArrayComplete(int[] tablica) {
         for (int i = 0; i < tablica.length; i++) {
-            if (tablica[i] != 0) {
+            if (tablica[i] == 0) {
                 return false;
             }
         }

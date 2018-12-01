@@ -1,20 +1,23 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+// Wczytuj liczby tak długo aż użytkownik poda 5 liczb większych od zera, 5 liczb mniejszych od zera
+// (łącznie 10) i potem wypisz ich sumę
+
 public class FivenumbersFive {
     public static void main(String[] args) {
 
         int[] positiveNumbers = new int[5];
-        int[] negativNumbers = new int[5];
+        int[] negativeNumbers = new int[5];
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("podaj 5 liczb dodatnich i 5 liczb ujemnych");
+        System.out.println("podaj " + positiveNumbers.length + " liczb dodatnich i " + negativeNumbers.length + " liczb ujemnych");
 
         int counterPositive = 0;
         int counterNegative = 0;
 
-        while (!(isArrayComplete(positiveNumbers) && isArrayComplete(negativNumbers))) {
+        while (!(isArrayComplete(positiveNumbers) && isArrayComplete(negativeNumbers))) {
 
             int input = scan.nextInt();
             if (input > 0) {
@@ -27,16 +30,16 @@ public class FivenumbersFive {
             }
 
             if (input < 0) {
-                if (isArrayComplete(negativNumbers)) {
+                if (isArrayComplete(negativeNumbers)) {
                     System.out.println("ujemne juz full");
                 } else {
-                    negativNumbers[counterNegative] = input;
+                    negativeNumbers[counterNegative] = input;
                     counterNegative++;
                 }
             }
         }
         System.out.println("podane liczby to: " + Arrays.toString(positiveNumbers));
-        System.out.println("podane liczby to: " + Arrays.toString(negativNumbers));
+        System.out.println("podane liczby to: " + Arrays.toString(negativeNumbers));
 
         int sumaDodatnich = 0;
         for (int i = 0; i < positiveNumbers.length; i++) {
@@ -44,8 +47,8 @@ public class FivenumbersFive {
         }
         System.out.println("suma pierwszej tablicy to: " + sumaDodatnich);
         int sumaUjemnych = 0;
-        for (int i = 0; i < negativNumbers.length; i++) {
-            sumaUjemnych = sumaUjemnych + negativNumbers[i];
+        for (int i = 0; i < negativeNumbers.length; i++) {
+            sumaUjemnych = sumaUjemnych + negativeNumbers[i];
         }
         System.out.println("suma drugiej tablicy to: " + sumaUjemnych);
 

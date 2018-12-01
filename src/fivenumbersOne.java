@@ -11,7 +11,7 @@ public class fivenumbersOne {
         int counter = 0;
 
         try {
-            while (counter < 5) {
+            while (counter < numbers.length) {
 
                 int input = scan.nextInt();
 
@@ -24,7 +24,7 @@ public class fivenumbersOne {
             }
             Arrays.sort(numbers);
             System.out.println("numbers are: " + Arrays.toString(numbers));
-            System.out.println("highest number is: " + numbers[4]);
+            System.out.println("the highest number is: " + numbers[numbers.length-1]);
 
         } catch (InputMismatchException e) {
             System.out.println("number too big!");
